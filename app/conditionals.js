@@ -90,14 +90,13 @@ let myCar = {
 }
 
 function isStopped(car) {
-    if (car.moving = true) {
+    if (car.moving) {
         return false
     }
-    else if (car.moving = false) {
-        return true
-    }
-
+    return true
 }
+
+
 
 //6. Write a function that returns true if a dish is yours and is dirty, or false if one of the statements is false
 
